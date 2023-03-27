@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SerialPage2"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvMaData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:text="My Data"
+        android:textSize="14pt"
+        tools:ignore="TextSizeCheck"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_below="@id/tvMaData"
+        android:text="Name After Progress"
+        android:textSize="12pt"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_below="@id/tvNama"
+        android:text="Email After Progress"
+        android:textSize="12pt"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvNohp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_below="@id/tvEmail"
+        android:text="Phone After Progress"
+        android:textSize="12pt"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_below="@id/tvNohp"
+        android:text="Address After Progress"
+        android:textSize="12pt"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_below="@id/tvAlamat"
+        android:text="Age After Progress"
+        android:textSize="12pt"
+        tools:ignore="TextSizeCheck" />
+
+
+</RelativeLayout>

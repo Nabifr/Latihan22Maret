@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parcelable"
+    android:padding="42sp">
+
+    <EditText
+        android:id="@+id/etNamaPar"
+        android:hint="@string/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize"/>
+    <EditText
+        android:id="@+id/etEmailPar"
+        android:hint="@string/email"
+        android:layout_below="@id/etNamaPar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="TextFields,VisualLintTextFieldSize"/>
+
+    <EditText
+        android:id="@+id/etNohpPar"
+        android:hint="@string/phone"
+        android:layout_below="@id/etEmailPar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:id="@+id/etAlamatPar"
+        android:hint="@string/address"
+        android:layout_below="@id/etNohpPar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:id="@+id/etUmurPar"
+        android:hint="@string/age"
+        android:layout_below="@id/etAlamatPar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <Button
+        android:id="@+id/btnSavePar"
+        android:text="@string/save"
+        android:layout_marginTop="52dp"
+        android:layout_below="@id/etUmurPar"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

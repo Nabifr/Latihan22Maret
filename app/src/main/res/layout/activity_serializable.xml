@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Serializable"
+    android:padding="42sp">
+
+    <EditText
+        android:id="@+id/etNamaSer"
+        android:hint="@string/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:id="@+id/etEmailSer"
+        android:hint="@string/email"
+        android:layout_below="@id/etNamaSer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="TextFields,VisualLintTextFieldSize"/>
+
+    <EditText
+        android:id="@+id/etNohpSer"
+        android:hint="@string/phone"
+        android:layout_below="@id/etEmailSer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:id="@+id/etAlamatSer"
+        android:hint="@string/address"
+        android:layout_below="@id/etNohpSer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:id="@+id/etUmurSer"
+        android:hint="@string/age"
+        android:layout_below="@id/etAlamatSer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <Button
+        android:id="@+id/btnSaveSer"
+        android:text="@string/save"
+        android:layout_marginTop="52dp"
+        android:layout_below="@id/etUmurSer"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
